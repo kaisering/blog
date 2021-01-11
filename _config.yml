@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://github.com/kaisering.github.io/public
-root: /public
+url: https://github.com/kaisering.github.io
+root: /kaisering.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -126,15 +126,4 @@ mathjax:
   cjk_width: 0.9 # relative CJK char width
   normal_width: 0.6 # relative normal (monospace) width
   append_css: true # add CSS to every page
-  every_page: false # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article
-
-
-  plugins:
-  gitalk:
-    clientID: GitHub Application Client ID
-    clientSecret: GitHub Application Client Secret
-    repo: GitHub repo
-    owner: GitHub repo owner
-    admin: 
-      - GitHub repo owner and collaborators, only these guys can initialize github issues
-    distractionFreeMode: false
+  every_page: false # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article  
