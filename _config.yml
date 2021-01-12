@@ -127,3 +127,13 @@ mathjax:
   normal_width: 0.6 # relative normal (monospace) width
   append_css: true # add CSS to every page
   every_page: false # if true, every page will be rendered by mathjax regardless the `mathjax` setting in Front-matter of each article  
+
+plugins:
+  gitalk:
+    clientID: ee669126f653855f589f
+    clientSecret: 5669e6253207b59e0db9308d905338e29a6b6cb6
+    repo: kaisering.github.io
+    owner: kaisering
+    admin: 
+         kaisering
+    distractionFreeMode: false  
