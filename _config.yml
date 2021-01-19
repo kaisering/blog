@@ -136,4 +136,8 @@ plugins:
     owner: kaisering
     admin: 
          kaisering
-    distractionFreeMode: false  
+    distractionFreeMode: false
+
+auto_category:
+  enable: true
+  depth:
