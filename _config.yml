@@ -3,11 +3,40 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Kaiser
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+  Java,
+  JVM,
+  Spring,
+  Spring Boot,
+  Spring MVC,
+  Spring Cloud,
+  Spring Cloud Alibaba,
+  Mybatis,
+  Redis,
+  Tomcat,
+  WEB,
+  MQ,
+  Dubbo,
+  Zookeeper,
+  Quartz,
+  Netty,
+  Oracle,
+  Docker,
+  OS,
+  GOF,
+  Algorithm,
+  Data Structure,
+  IntelliJ IDEA,
+  HTML,
+  JavaScript,
+  Jquery,
+  node,
+  Vue,
+  Hexo
+author: Kaiser
 language: en
 timezone: ''
 
@@ -134,10 +163,7 @@ plugins:
     clientSecret: 5669e6253207b59e0db9308d905338e29a6b6cb6
     repo: kaisering.github.io
     owner: kaisering
-    admin: 
-         kaisering
+    admin:
+      kaisering
     distractionFreeMode: false
 
-auto_category:
-  enable: true
-  depth:
